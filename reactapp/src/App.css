@@ -1,0 +1,46 @@
+.password-container {
+  position: relative;
+  width: 250px;
+  margin: 20px auto; /* center if in a larger layout */
+  font-family: Arial, sans-serif;
+}
+
+.password-input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* room for the eye icon */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.toggle-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff44; /* optional soft focus ring */
+}
+
+.toggle-button:hover {
+  color: #000; /* slightly darker on hover */
+}
+
+.activeMenu{
+  Left: 0%;
+}
+
+.micon{
+  position: absolute;
+  right: 10PX;
+}
